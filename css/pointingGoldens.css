@@ -1,0 +1,64 @@
+body {
+    padding-top: 50px;
+}
+.container {
+    max-width: 1000px;
+}
+
+.jumbotron{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.jumbotron h2 {
+    font-size: 36px;
+}
+
+#myCarousel img {
+    width: 375px;
+    margin: auto;
+}
+.carousel-indicators {
+    bottom: 0;
+}
+.carousel-indicators .active {
+    background-color: #222;
+}
+.carousel-indicators li {
+    border-color: #222;
+}
+
+#myCarousel h1, h2, h3, h4 {
+    text-align: center;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #428bca;
+}
+
+#mainContent .col-md-4 {
+    border: 1px solid;
+
+}
+
+#mainContent img {
+    width: 100%;
+    margin: auto;
+    padding: .2em;
+}
+#mainContent .imgSizer{
+    width: 110%;
+    padding-top: 10px !important;
+    padding-bottom: 14px !important;
+
+}
+/*#mainContent img[src*="img/IMG_0044.jpg"]{
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
+
+}
+*/
+
+#mainContent h3, #mainContent p {
+    margin: auto;
+    text-align: center;
+}
