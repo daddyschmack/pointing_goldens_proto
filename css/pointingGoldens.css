@@ -2,7 +2,7 @@ body {
     padding-top: 50px;
 }
 .container {
-    max-width: 1000px;
+    max-width: 1000px
 }
 
 .jumbotron{
@@ -61,4 +61,34 @@ body {
 #mainContent h3, #mainContent p {
     margin: auto;
     text-align: center;
+}
+
+@media all and (max-width:1200px) {
+    #mainContent h2{
+        font-size: 2.8em;
+    }
+    #mainContent .imgSizer, #mainContent img{
+        width:80%;
+        padding: 1.25em 0;
+        margin-top:1.25em;
+
+    }
+    #mainContent h3{
+        margin: .6em 0 .32em 0;
+        padding: .4em 0;
+        font-size: 2em;
+    }
+
+    #mainContent p{
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+   #mainContent p:first-line{
+       font-size: 20px;
+   }
+   #mainContent button{
+       font-size: 1.5em !important;
+   }
+
 }
